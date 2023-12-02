@@ -42,3 +42,25 @@ Not (not): Returns the opposite of the operand's logical value.
 Assignment Operators:<br />
 Assigns a value to a variable. Example: x = 5
 <br />
+Condition:<br />
+Conditions allow you to control the flow of your program based on certain criteria. In Python, conditions are expressed using if, elif, and else statements.
+<br />
+
+    if condition1:
+        # code to be executed if condition1 is true
+    elif condition2:
+        # code to be executed if condition2 is true but condition1 is not true
+    elif condition3:
+        # code to be executed if condition3 is true but condition1 and condition2 are not true
+    else:
+        # code to be executed if none of the conditions are true
+<br />
+In conditions, you can use comparison operators (==, !=, <, >, <=, >=) to compare values, logical operators (and, or, not) to combine conditions, and other techniques to make complex comparisons.
+<br />
+Example:
+<br />
+
+    if 2 != 2:
+    	print("This is stupid")
+    else:
+    	print("Not so stupid!!") <br />
