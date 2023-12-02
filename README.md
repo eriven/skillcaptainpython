@@ -63,4 +63,5 @@ Example:
     if 2 != 2:
     	print("This is stupid")
     else:
-    	print("Not so stupid!!") <br />
+    	print("Not so stupid!!")
+  <br />   
