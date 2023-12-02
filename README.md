@@ -1,7 +1,7 @@
 # skillcaptainpython
-Variable is a reusable container for storing a value .
-A variable behaves as if it were the value it contains.
-Data types in python:
+Variable is a reusable container for storing a value .<br />
+A variable behaves as if it were the value it contains.<br />
+Data types in python:<br />
 int: Represents whole numbers without decimal points. It could be negative or positive.
 float: Represents decimal numbers. Simply numbers with a fractional part.
 str: Represents sequences of characters (text!).
@@ -11,5 +11,34 @@ tuple: Represents ordered but not so changable collections of elements.
 dict: Represents key-value pairs in a dictionary.
 set: Represents unordered collections of unique elements.
 byte: Represents a sequence of bytes, typically used for storing binary data.
+<br />
+Just try to remember the name and you will be able to learn where they are used as you will be using them. <br />
 
-Just try to remember the name and you will be able to learn where they are used as you will be using them.
+Operators <br />
+Operators are used to perform operations on values or variables. Python provides various types of operators, including arithmetic, comparison, logical, assignment, and more.
+<br />
+Arithmetic Operators:<br />
+Addition (+): Adds two values.
+Subtraction (-): Subtracts one value from another.
+Multiplication (*): Multiplies two values.
+Division (/): Divides one value by another.
+Modulus (%): Returns the remainder of division.
+Exponentiation (**): Raises a value to a power.
+Floor Division (//): Returns the integer quotient of division.
+<br />
+Comparison Operators:<br />
+Equal to (==): Checks if two values are equal.
+Not equal to (!=): Checks if two values are not equal.
+Greater than (>): Checks if the left value is greater than the right value.
+Less than (<): Checks if the left value is less than the right value.
+Greater than or equal to (>=): Checks if the left value is greater than or equal to the right value.
+Less than or equal to (<=): Checks if the left value is less than or equal to the right value.
+<br />
+Logical Operators:<br />
+And (and): Returns True if both operands are True.
+Or (or): Returns True if either of the operands is True.
+Not (not): Returns the opposite of the operand's logical value.
+<br />
+Assignment Operators:<br />
+Assigns a value to a variable. Example: x = 5
+<br />
