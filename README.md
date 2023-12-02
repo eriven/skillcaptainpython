@@ -2,14 +2,14 @@
 Variable is a reusable container for storing a value .<br />
 A variable behaves as if it were the value it contains.<br />
 Data types in python:<br />
-int: Represents whole numbers without decimal points. It could be negative or positive.
-float: Represents decimal numbers. Simply numbers with a fractional part.
-str: Represents sequences of characters (text!).
-bool: Represents logical values, True or False.
-list: Represents ordered collections of elements.
-tuple: Represents ordered but not so changable collections of elements.
-dict: Represents key-value pairs in a dictionary.
-set: Represents unordered collections of unique elements.
+int: Represents whole numbers without decimal points. It could be negative or positive.<br />
+float: Represents decimal numbers. Simply numbers with a fractional part.<br />
+str: Represents sequences of characters (text!).<br />
+bool: Represents logical values, True or False.<br />
+list: Represents ordered collections of elements.<br />
+tuple: Represents ordered but not so changable collections of elements.<br />
+dict: Represents key-value pairs in a dictionary.<br />
+set: Represents unordered collections of unique elements.<br />
 byte: Represents a sequence of bytes, typically used for storing binary data.
 <br />
 Just try to remember the name and you will be able to learn where they are used as you will be using them. <br />
