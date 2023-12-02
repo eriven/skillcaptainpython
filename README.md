@@ -65,3 +65,29 @@ Example:
     else:
     	print("Not so stupid!!")
   <br />   
+  Loops: while and for loops
+  <br />   
+Loops are used in Python to execute a block of code repeatedly until a certain condition is met. Two commonly used loops in Python are the while loop and the for loop.  <br />   
+
+while loop: The while loop executes a block of code as long as a specified condition is true.  <br />   
+
+Example:  <br />  
+
+    
+    count = 0
+    while count < 5:
+        print("Count:", count)
+        count += 1
+  <br />       
+for loop: The for loop is used to iterate over a sequence (such as a list, tuple, string, or range) or other iterable objects.
+  <br />   
+  
+Example:  <br />  
+    
+        numbers = [1, 2, 3, 4, 5]
+        for num in numbers:
+            print("Number:", num)
+    
+  <br />  
+You can use control statements like break and continue to modify the behavior of loops. The break statement is used to exit the loop prematurely, and the continue statement is used to skip the rest of the loop iteration and move to the next one.
+  <br />  
