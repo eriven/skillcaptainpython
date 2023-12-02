@@ -1,4 +1,6 @@
 # skillcaptainpython
+Variable is a reusable container for storing a value .
+A variable behaves as if it were the value it contains.
 Data types in python:
 int: Represents whole numbers without decimal points. It could be negative or positive.
 float: Represents decimal numbers. Simply numbers with a fractional part.
