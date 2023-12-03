@@ -131,3 +131,31 @@ Example:
     sum = add_numbers(3, 5)
     print(sum)  # Output: 8
 
+Array and List: <br />  
+In Python, arrays and lists are both used to store multiple values, but they have some key differences:<br />  
+Lists:<br />  
+- Lists are a built-in data structure in Python<br />  
+- They can hold elements of different data types, such as integers, floats, strings, and even other lists.<br />  
+- Lists are mutable, meaning you can modify their elements after they are created.<br />  
+- They are defined using square brackets [] and elements are separated by commas.<br />  
+Example:<br />  
+```
+    my_list = [1, 2, "hello", 3.14, [4, 5, 6]]
+```
+
+Arrays:<br />  
+- Arrays, on the other hand, are a data structure provided by the `array` module in Python's standard library.<br />  
+- Unlike lists, arrays can only hold elements of the same data type, typically numbers (integers or floats).<br />  
+- Arrays are generally more memory efficient and faster for numerical computations than lists.<br />  
+- They are defined using the `array` function from the `array` module, specifying the data type and the initial elements.<br />  
+
+Example:<br />  
+```
+    import array
+
+    my_array = array.array('i', [1, 2, 3, 4, 5])
+```
+
+In most cases, you'll likely use lists more frequently because of their flexibility. However, if you are working with large amounts of numerical data and performance is a concern, arrays can be a suitable choice.<br />  
+
+It's important to note that arrays require importing the `array` module, while lists are available by default in Python.<br />  
