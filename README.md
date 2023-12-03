@@ -115,4 +115,19 @@ else:
 finally:
     print("This will always execute")
 ```
+Defining Functions in python:  <br />  
+A Python function is like a named recipe or set of instructions that you can use again and again. It allows you to group a series of statements together and give them a name.  <br />  
+
+Whenever you need to perform a specific task, you can simply call the function by its name to execute those instructions.
+  <br />  
+Example:
+
+    # Define a function named "add_numbers" that adds two numbers
+    def add_numbers(num1, num2):
+        result = num1 + num2
+        return result
+
+    # Call the function and pass two numbers
+    sum = add_numbers(3, 5)
+    print(sum)  # Output: 8
 
