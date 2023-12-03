@@ -96,7 +96,8 @@ You can use control statements like break and continue to modify the behavior of
  an exception is an eventdetectedduring execution that interrupts the normal flow of a program <br />  
  Handling this exception using arbitrary functions and commands is known as exception handling.   <br /> 
  
-''' try:
+```
+ try:
     numerator = int(input("Enter a number to divide: "))
     denominator = int(input("Enter a number to divide by: "))
     result = numerator / denominator
@@ -112,5 +113,5 @@ except Exception as e:
 else:
     print(result)
 finally:
-    print("This will always execute") '''
+    print("This will always execute") ```
 
