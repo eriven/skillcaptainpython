@@ -91,3 +91,26 @@ Example:  <br />
   <br />  
 You can use control statements like break and continue to modify the behavior of loops. The break statement is used to exit the loop prematurely, and the continue statement is used to skip the rest of the loop iteration and move to the next one.
   <br />  
+
+ Exceptionss:  <br />  
+ an exception is an eventdetectedduring execution that interrupts the normal flow of a program <br />  
+ Handling this exception using arbitrary functions and commands is known as exception handling.   <br /> 
+ 
+''' try:
+    numerator = int(input("Enter a number to divide: "))
+    denominator = int(input("Enter a number to divide by: "))
+    result = numerator / denominator
+except ZeroDivisionError as e:
+    print(e)
+    print("You can't divide by zero! idiot!")
+except ValueError as e:
+    print(e)
+    print("Enter only numbers plz")
+except Exception as e:
+    print(e)
+    print("something went wrong :(")
+else:
+    print(result)
+finally:
+    print("This will always execute") '''
+
