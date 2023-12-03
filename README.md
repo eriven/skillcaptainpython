@@ -159,3 +159,40 @@ Example:<br />
 In most cases, you'll likely use lists more frequently because of their flexibility. However, if you are working with large amounts of numerical data and performance is a concern, arrays can be a suitable choice.<br />  
 
 It's important to note that arrays require importing the `array` module, while lists are available by default in Python.<br />  
+
+Dictionary:<br />  
+
+A dictionary in Python is a collection of key-value pairs, where each key is unique within the dictionary. It is a mutable data structure that allows you to store and retrieve values based on their associated keys.<br />  
+
+Here's a brief explanation of dictionaries in Python:<br />  
+
+Declaration: Dictionaries are defined using curly braces {} or the dict() constructor. The key-value pairs are written as key: value separated by commas.<br />  
+
+    # Using curly braces
+    my_dict = {'name': 'John', 'age': 25, 'city': 'New York'}
+
+    # Using the dict() constructor
+    my_dict = dict(name='John', age=25, city='New York')
+
+Accessing Values: You can access the value associated with a specific key by using the key inside square brackets `[]`.<br />  
+
+    print(my_dict['name'])  # Output: John
+    print(my_dict['age'])   # Output: 25
+
+Modifying Values: You can modify the value associated with a key by assigning a new value to that key.<br />  
+
+    my_dict['age'] = 30
+    print(my_dict['age'])   # Output: 30
+
+Adding and Removing Key-Value Pairs: You can add a new key-value pair by assigning a value to a new key, and you can remove a key-value pair using the `del` keyword.<br />  
+
+    my_dict['occupation'] = 'Engineer'  # Adding a new key-value pair
+    del my_dict['city']                 # Removing a key-value pair
+
+Dictionary Methods: Dictionaries have various built-in methods that allow you to manipulate and retrieve information from dictionaries. Some common methods include `keys()`, <br />  `values()`, `items()`, `get()`, `pop()`, and `clear()`.
+
+    print(my_dict.keys())    # Output: ['name', 'age', 'occupation']
+    print(my_dict.values())  # Output: ['John', 30, 'Engineer']
+    print(my_dict.items())   # Output: [('name', 'John'), ('age', 30), ('occupation', 'Engineer')]
+
+Dictionaries are useful when you need to store and retrieve data based on unique keys. They are often used to represent real-world entities or to store configurations and settings.<br />  
